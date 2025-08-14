@@ -75,7 +75,7 @@ int main()
 			case 1:
 				
 				int item;
-				if(top == max_stack)
+				if(top == (max_stack - 1))
 				{
 					printf("Stack Overflow.\n");
 					break;
